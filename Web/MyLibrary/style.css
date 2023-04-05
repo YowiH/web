@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #333;
+    background-color: #fff;
+}
+
+header {
+    background-color: #0072c6;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main section {
+    margin-bottom: 40px;
+}
+
+main h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+main ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+main li {
+    margin-bottom: 10px;
+}
+
+main a {
+    color: #0072c6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.book-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.book {
+    margin: 10px;
+    text-align: center;
+}
+
+.book img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+}
+
+.book p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #ccc;
+    color: #333;
+    padding: 10px 20px;
+    text-align: center;
+}
