@@ -23,30 +23,71 @@
             <h2>Books</h2>
             <div class="book-container">
                 <div class="book">
-                    <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1328067583i/6988202.jpg" alt="JoJo's Bizarre Adventure 1">
+                    <img id="jojos-bizarre-adventure-1" src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1328067583i/6988202.jpg" alt="JoJo's Bizarre Adventure 1 - Dio the Invader" data-booknote="jojos-bizarre-adventure-1-note">
                     <p>JoJo's Bizarre Adventure 1<br>Dio the Invader</p>
                 </div>
                 <div class="book">
-                    <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1372227163i/1152869.jpg" alt="">
-                    <p>Yotsuba&!</p>
+                    <img id="yotsuba-and-1" src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1372227163i/1152869.jpg" alt="Yotsuba&! 1" data-booknote="yotsuba-and-1-note">
+                    <p>Yotsuba&! 1</p>
                 </div>
                 <div class="book">
-                    <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1650033243i/41733839.jpg" alt="">
+                    <img id="the-great-gatsby onclick="showNotes()"" src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1650033243i/41733839.jpg" alt="The Great Gatsby" data-booknote="the-great-gatsby-note">
                     <p>The Great Gatsby</p>
                 </div>
             </div>
         </section>
         <section>
             <h2>Book Notes</h2>
-            <ul>
-                <li><a href="">Book Note for JoJo's Bizarre Adventure</a></li>
-                <li><a href="">Book Note for Yotsuba&!</a></li>
-                <li><a href="">Book Note for The Great Gatsby</a></li>
-            </ul>
+            <div id="book-notes-displayer"></div>
+            <div id="book-notes-container">
+                <article id="jojos-bizarre-adventure-1-note">
+                    <h3 id="chapter-1-dio-the-invader">Chapter 1: Dio the Invader</h3>
+                    <ul>
+                        <li>George thought Dario was saving him from a carriage accident, so he owes him.</li>
+                        <li>Dario gives Dio a letter for George and Dio starts being cared of by the Joestar family.</li>
+                        <li>Jonathan gets beaten trying to save Erina and Dio kicks Jonathan&#39;s dog.</li>
+                    </ul>
+                    <h3 id="chapter-2-a-new-friend">Chapter 2: A New Friend!</h3>
+                    <ul>
+                        <li>Dio strives to be better than Jonathan and make him look bad in everything.</li>
+                        <li>Dio bets his monthly allowance to beat Jonathan in boxing and beats him up.</li>
+                        <li>Dio tells to everyone that he will teach them boxing moves and makes them hate JoJo.</li>
+                    </ul>
+                    <h3 id="chapter-3-beloved-erina">Chapter 3: Beloved Erina</h3>
+                    <ul>
+                        <li>Jonathan feels friendless and Erina returns Jonathan his handkerchief in a basket with fruits.</li>
+                        <li>Jonathan and Erina have fun until they fall in love, and JoJo carves their names into a tree.</li>
+                        <li>Dio sees the heart carving of JoJo and Erina, so he kisses Erina in front of JoJo&#39;s old friends.</li>
+                    </ul>
+                </article>
+                <article id="yotsuba-and-1-note">
+                    <h3 id="chapter-1-moving">Chapter 1: Moving</h3>
+                    <ul>
+                        <li>Yotsuba and Yousuke move in and Yotsuba gets lost when Yousuke and Jambo put the boxes.</li>
+                        <li>Fuuka looks for Yotsuba after meeting Yousuke, and Yotsuba runs away from her.</li>
+                        <li>Asagi protects Yotsuba from Fuuka; Asagi, Fuuka and Ena welcome Yotsuba and Yousuke.</li>
+                    </ul>
+                </article>
+                <article id="the-great-gatsby-note">
+                    <h3 id="introduction">Introduction</h3>
+                    <ul>
+                        <li>Nick graduates in New Haven in 1915 and goes to fight in the Great War.</li>
+                        <li>Nick goes to New York in 1922 during a summer to learn the bond business.</li>
+                        <li>Nick starts living in West Egg (Long Island) next to a rich man&#39;s house, the house of Gatsby.</li>
+                    </ul>
+                    <h3 id="chapter-1-tom-and-daisy">Chapter 1: Tom and Daisy</h3>
+                    <ul>
+                        <li>Nick goes to East Egg and has dinner with Daisy, Tom and Jordan.</li>
+                        <li>Jordan tells Nick that Tom is having an affair with a woman in New York.</li>
+                        <li>Nick returns to West Egg and sees Gatsby stretching his arms to a green light in the sea.</li>
+                    </ul>
+                </article>
+            </div>
         </section>
     </main>
     <footer>
         <p>Copyright &copy; 2023 My Library</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -101,6 +101,22 @@ main a {
     font-weight: bold;
 }
 
+#book-notes-displayer article h3 {
+    margin-bottom: 10px;
+}
+
+#book-notes-displayer article ul {
+    margin-bottom: 20px;
+}
+
+#book-notes-displayer article ul li {
+    margin: 0;
+}
+
+#book-notes-container article {
+    display: none;
+}
+
 footer {
     background-color: #ccc;
     color: #333;
