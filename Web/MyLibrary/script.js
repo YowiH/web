@@ -13,3 +13,10 @@ function rotate() {
     const toggle = document.querySelector(".toggle");
     toggle.classList.toggle("rotate");
 }
+
+function disableTextSelection() {
+    const element = event.currentTarget;
+    element.style.userSelect = "none";
+    const toggle = document.querySelector(".toggle");
+    toggle.addEventListener("dblclick", disableTextSelection);
+}
