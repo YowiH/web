@@ -8,3 +8,8 @@ images.forEach(image => {
         bookNotesDisplayer.appendChild(bookNote.cloneNode(true));
     });
 });
+
+function rotate() {
+    const toggle = document.querySelector(".toggle");
+    toggle.classList.toggle("rotate");
+}

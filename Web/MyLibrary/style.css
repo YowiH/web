@@ -120,6 +120,10 @@ main a {
     margin: 0;
 }
 
+#book-notes-displayer article .toggle-container {
+    display: block;
+}
+
 #book-notes-displayer article div {
     display: flex;
     margin-bottom: 20px;
@@ -130,14 +134,20 @@ main a {
 }
 
 #book-notes-displayer article div .toggle {
+    display: inline-block;
     margin-right: 7px;
     padding: 2px 5px;
+    border-radius: 5px;
+    transition: all 0.09s ease-in-out;
 }
 
 #book-notes-displayer article div .toggle:hover {
     background-color: rgba(0, 0, 0, 0.09);
-    border-radius: 5px;
     cursor: pointer;
+}
+
+.rotate {
+    transform: rotate(90deg);
 }
 
 #book-notes-container article {
