@@ -120,6 +120,26 @@ main a {
     margin: 0;
 }
 
+#book-notes-displayer article div {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#book-notes-displayer article div p {
+    margin: 0 5px;
+}
+
+#book-notes-displayer article div .toggle {
+    margin-right: 7px;
+    padding: 2px 5px;
+}
+
+#book-notes-displayer article div .toggle:hover {
+    background-color: rgba(0, 0, 0, 0.09);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 #book-notes-container article {
     display: none;
 }
