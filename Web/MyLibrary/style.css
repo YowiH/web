@@ -142,8 +142,18 @@ main a {
     cursor: pointer;
 }
 
-#book-notes-displayer .toggle-container .rotate {
+#book-notes-displayer .toggle-container .toggle.active {
     transform: rotate(90deg);
+}
+
+#book-notes-displayer .toggle-container .context-note {
+    margin-top: 10px;
+    margin-left: 2.2rem;
+    display: none;
+}
+
+#book-notes-displayer .toggle-container .context-note.active {
+    display: block;
 }
 
 #book-notes-container article {

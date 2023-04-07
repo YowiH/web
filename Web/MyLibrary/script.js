@@ -1,6 +1,6 @@
 function rotate() {
     const toggle = document.querySelector(".toggle");
-    toggle.classList.toggle("rotate");
+    toggle.classList.toggle("active");
 }
 
 function disableTextSelection() {
@@ -12,11 +12,13 @@ function disableTextSelection() {
 
 function display() {
     const contextNote = document.querySelector(".context-note");
-    if (contextNote.style.display == "none") {
-        contextNote.style.display = "block";
-    } else {
-        contextNote.style.display = "none";
-    }
+    contextNote.classList.toggle("active");
+}
+
+function toggleList() {
+    rotate();
+    disableTextSelection();
+    display();
 }
 
 const images = document.querySelectorAll("img");
