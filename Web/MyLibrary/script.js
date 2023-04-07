@@ -37,6 +37,9 @@ images.forEach(image => {
                 activeImage.classList.remove("active");
             }
             activeImage = image;
+        } else {
+            image.classList.remove("active");
+            activeImage = null;
         }
     });
 });
