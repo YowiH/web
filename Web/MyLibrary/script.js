@@ -29,5 +29,6 @@ images.forEach(image => {
         const bookNotesDisplayer = document.getElementById("book-notes-displayer");
         bookNotesDisplayer.innerHTML = "";
         bookNotesDisplayer.appendChild(bookNote.cloneNode(true));
+        window.location.hash = bookNoteId;
     });
 });
