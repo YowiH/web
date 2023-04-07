@@ -22,6 +22,7 @@ function toggleList() {
 }
 
 const images = document.querySelectorAll("img");
+let activeImage = null;
 images.forEach(image => {
     image.addEventListener("click", () => {
         const bookNoteId = image.dataset.booknote;
@@ -30,5 +31,10 @@ images.forEach(image => {
         bookNotesDisplayer.innerHTML = "";
         bookNotesDisplayer.appendChild(bookNote.cloneNode(true));
         window.location.hash = bookNoteId;
+        image.classList.add("active");
+        if (activeImage !== null) {
+            activeImage.classList.remove("active");
+        }
+        activeImage = image;
     });
 });

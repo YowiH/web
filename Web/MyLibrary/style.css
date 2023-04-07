@@ -94,6 +94,10 @@ main a {
     transition: all 0.2s ease-in-out;
 }
 
+.book img.active {
+    filter: grayscale(100%);
+}
+
 .book img:hover {
     transform: scale(1.05);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
