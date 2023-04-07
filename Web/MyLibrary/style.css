@@ -120,12 +120,8 @@ main a {
     margin: 0;
 }
 
-#book-notes-displayer article .toggle-container {
-    display: block;
-}
-
 #book-notes-displayer article div {
-    display: flex;
+    display: block;
     margin-bottom: 20px;
 }
 
@@ -133,7 +129,7 @@ main a {
     margin: 0 5px;
 }
 
-#book-notes-displayer article div .toggle {
+#book-notes-displayer .toggle-container .toggle {
     display: inline-block;
     margin-right: 7px;
     padding: 2px 5px;
@@ -141,12 +137,12 @@ main a {
     transition: all 0.09s ease-in-out;
 }
 
-#book-notes-displayer article div .toggle:hover {
+#book-notes-displayer .toggle-container .toggle:hover {
     background-color: rgba(0, 0, 0, 0.09);
     cursor: pointer;
 }
 
-.rotate {
+#book-notes-displayer .toggle-container .rotate {
     transform: rotate(90deg);
 }
 
