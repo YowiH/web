@@ -35,10 +35,12 @@ images.forEach(image => {
             image.classList.add("active");
             if (activeImage !== null) {
                 activeImage.classList.remove("active");
+                bookNotesDisplayer.innerHTML = "";
             }
             activeImage = image;
         } else {
             image.classList.remove("active");
+            bookNotesDisplayer.innerHTML = "";
             activeImage = null;
         }
     });
