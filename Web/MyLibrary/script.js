@@ -30,7 +30,8 @@ images.forEach(image => {
         const bookNotesDisplayer = document.getElementById("book-notes-displayer");
         bookNotesDisplayer.innerHTML = "";
         bookNotesDisplayer.appendChild(bookNote.cloneNode(true));
-        window.location.hash = bookNoteId;
+        const bookNotesHeader = document.getElementById("book-notes-header");
+        bookNotesHeader.scrollIntoView({behavior: "smooth"})
         if (activeImage !== image) {
             image.classList.add("active");
             if (activeImage !== null) {
