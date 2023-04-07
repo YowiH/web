@@ -1,6 +1,6 @@
 # WIP
 ## Library
-- Search bar for books
-- Toggle list
-- Current book detection
-    - Black and white style on current book
+[x] Toggle list
+[x] Current book detection
+    [x] Black and white style on current book
+[] Search bar for books
