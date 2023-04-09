@@ -31,15 +31,14 @@ images.forEach(image => {
         bookNotesDisplayer.innerHTML = "";
         bookNotesDisplayer.appendChild(bookNote.cloneNode(true));
         const bookNotesHeader = document.getElementById("book-notes-header");
-        if (activeImage !== image) {
+        if (activeImage !== image) { // First click on any image
             image.classList.add("active");
             bookNotesHeader.scrollIntoView({behavior: "smooth"});
-            if (activeImage !== null) {
+            if (activeImage !== null) { // First click on a different image
                 activeImage.classList.remove("active");
-                bookNotesDisplayer.innerHTML = "";
             }
             activeImage = image;
-        } else {
+        } else { // Second click on same image
             image.classList.remove("active");
             bookNotesDisplayer.innerHTML = "";
             activeImage = null;
