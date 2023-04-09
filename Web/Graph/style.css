@@ -1,0 +1,56 @@
+html, body, #graph {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#graph {
+    width: 100%;
+    height: 100%;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
+
+.node {
+    display: inline-block;
+    padding: 5px;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.node.active {
+    background-color: #0078d7;
+    color: #fff;
+}
+
+.node:hover {
+    background-color: #0078d7;
+    color: #fff;
+}
+
+.edge {
+    stroke: #ccc;
+    stroke-width: 2;
+    marker-end: url(#arrowhead);
+}
+
+.edge.active {
+    stroke: #0078d7;
+}
+
+.edge-label {
+    font-size: 12px;
+    text-anchor: middle;
+    fill: #555;
+}
+
+svg {
+    display: none;
+}
