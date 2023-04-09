@@ -76,6 +76,7 @@ section {
     transform: scale(1.1);
     filter: grayscale(0%);
     box-shadow: 0 0 10px rgba(153, 0, 47, 0.6);
+    cursor: pointer;
 }
 
 #about #my-name {
