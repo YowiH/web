@@ -1,17 +1,18 @@
 let nodes = new vis.DataSet([
-    {id: 1, label: "Node 1"},
-    {id: 2, label: "Node 2"},
-    {id: 3, label: "Node 3"},
-    {id: 4, label: "Node 4"},
-    {id: 5, label: "Node 5"},
+    {id: 1, label: "Yowi"},
+    {id: 2, label: "Happiness"},
+    {id: 3, label: "Fit in socially"},
+    {id: 4, label: "Pride"},
+    {id: 5, label: "Health"},
+    {id: 6, label: "Yowi's Website"}
 ]);
 
 let edges = new vis.DataSet([
-    {from: 1, to: 2, label: "Edge 1"},
-    {from: 2, to: 3, label: "Edge 2"},
-    {from: 3, to: 4, label: "Edge 3"},
-    {from: 4, to: 5, label: "Edge 4"},
-    {from: 5, to: 1, label: "Edge 5"},
+    {from: 3, to: 2},
+    {from: 4, to: 2},
+    {from: 5, to: 2},
+    {from: 1, to: 6},
+    {from: 6, to: 4}
 ]);
 
 const container = document.getElementById("graph");
