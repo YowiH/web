@@ -79,6 +79,7 @@ main a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
 }
 
 .book {
@@ -170,4 +171,53 @@ footer {
     color: #333;
     padding: 10px 20px;
     text-align: center;
+}
+
+
+@media screen and (max-width: 730px) {
+    #book-notes-displayer article ul li {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    #book-notes-displayer article ul li {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 635px) {
+    #book-notes-displayer article ul li {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 615px) {
+    #book-notes-displayer article ul li {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #book-notes-displayer article ul li {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    #book-notes-displayer article ul li {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    #book-notes-displayer article ul li {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #book-notes-displayer article ul li {
+        font-size: 9px;
+    }
 }
