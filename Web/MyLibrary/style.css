@@ -181,7 +181,7 @@ footer {
     text-align: center;
 }
 
-@media screen and (min-width: 100px) {
+@media screen and (max-width: 700px) {
     header h1 {
         margin: 0 auto;
     }
@@ -213,11 +213,5 @@ footer {
 
     #book-notes-displayer article ul li {
         margin-bottom: 10px;
-    }
-}
-
-@media screen and (min-width: 700px) {
-    #book-notes-displayer article ul li {
-        margin: 0;
     }
 }
