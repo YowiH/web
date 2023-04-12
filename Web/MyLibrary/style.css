@@ -135,6 +135,10 @@ main a {
     margin: 0 5px;
 }
 
+#book-notes-displayer .toggle-container p {
+    margin-bottom: 1rem;
+}
+
 #book-notes-displayer .toggle-container .toggle {
     display: inline-block;
     margin-right: 7px;
@@ -160,6 +164,10 @@ main a {
 
 #book-notes-displayer .toggle-container .context-note.active {
     display: block;
+}
+
+#book-notes-displayer .toggle-container .context-note.active li span {
+    font-style: italic;
 }
 
 #book-notes-container article {
