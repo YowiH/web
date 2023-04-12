@@ -180,3 +180,15 @@ footer {
     padding: 10px 20px;
     text-align: center;
 }
+
+@media screen and (min-width: 100px) {
+    #book-notes-displayer article ul li {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    #book-notes-displayer article ul li {
+        margin: 0;
+    }
+}
