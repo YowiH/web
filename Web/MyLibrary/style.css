@@ -110,7 +110,7 @@ main a {
     font-weight: bold;
 }
 
-#book-notes-header {
+#book-notes-header h2{
     margin: 0;
 }
 
@@ -194,9 +194,13 @@ footer {
         text-align: center;
     }
 
+    .book {
+        margin: 0 0.2rem;
+    }
+
     .book img {
-        width: 100px;
-        height: 150px;
+        width: 130px;
+        height: 180px;
     }
 
     .book p {
@@ -204,7 +208,12 @@ footer {
     }
 
     #book-notes-header {
+        display: none;
         text-align: center;
+    }
+
+    #book-notes-header.active {
+        display: inline;
     }
 
     #book-notes-displayer .toggle-container .context-note.active li span {

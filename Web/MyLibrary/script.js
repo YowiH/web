@@ -33,6 +33,7 @@ images.forEach(image => {
         const bookNotesHeader = document.getElementById("book-notes-header");
         if (activeImage !== image) { // First click on any image
             image.classList.add("active");
+            bookNotesHeader.classList.add("active");
             bookNotesHeader.scrollIntoView({behavior: "smooth"});
             if (activeImage !== null) { // First click on a different image
                 activeImage.classList.remove("active");
@@ -40,6 +41,7 @@ images.forEach(image => {
             activeImage = image;
         } else { // Second click on same image
             image.classList.remove("active");
+            bookNotesHeader.classList.remove("active");
             bookNotesDisplayer.innerHTML = "";
             activeImage = null;
         }
