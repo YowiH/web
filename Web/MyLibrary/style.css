@@ -182,6 +182,35 @@ footer {
 }
 
 @media screen and (min-width: 100px) {
+    header h1 {
+        margin: 0 auto;
+    }
+
+    header nav ul {
+        display: none;
+    }
+
+    main section h2 {
+        text-align: center;
+    }
+
+    .book img {
+        width: 100px;
+        height: 150px;
+    }
+
+    .book p {
+        display: none;
+    }
+
+    #book-notes-header {
+        text-align: center;
+    }
+
+    #book-notes-displayer .toggle-container .context-note.active li span {
+        text-decoration: underline;
+    }
+
     #book-notes-displayer article ul li {
         margin-bottom: 10px;
     }
