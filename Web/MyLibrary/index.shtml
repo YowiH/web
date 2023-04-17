@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yowi's Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Yowi's Library</h1>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Books</a></li>
+                <li><a href="">Book Notes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Books</h2>
+            <div class="book-container">
+                <!--include virtual="books.html"-->
+            </div>
+        </section>
+        <section>
+            <div id="book-notes-header">
+                <h2>Book Notes</h2>
+                <hr>
+            </div>
+            <div id="book-notes-displayer"></div>
+            <div id="book-notes-container">
+                <link rel="import" href="book-notes.html">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2023 Yowi's Library (v.1.0.46)</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
